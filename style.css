@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans seriff';
+    margin: 0px;
+    padding: 0px;
+}
+/* @media only screen and (max-width: 455px) {
+    .container .box{
+        flex-direction: column;
+    } */
+    
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    min-width: 1100px;
+}
+.container{
+    min-width: 1100px;
+}
+.logo {
+    width: 200px;
+    height: 23px;
+    font-weight: 1000;
+    color: rgb(0, 139, 219);
+}
+#Jhon {
+    color: black;
+}
+.right ul {
+    display: flex;
+    gap: 18px;
+}
+.right ul li {
+    list-style: none;
+
+}
+.right ul li a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    transition: 0.3s;
+    ;
+}
+.right ul li a:hover {
+    color: rgb(0, 139, 219);
+}
+.box {
+    background-color: rgb(248, 248, 248);
+    height: 500px;
+    margin: 0px 0px;
+}
+.box:nth-child(even) {
+    background-color: rgb(228, 228, 228);
+}
+
+/* ____box 1____ */
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12%;
+}
+
+.box1 img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(63, 63, 63, 0.363);
+    margin-left: 20px;
+}
+
+.box1 .btn {
+    background-color: rgb(37, 175, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 40px;
+    border-style: none;
+    transition: .5s;
+}
+
+.box1 .btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.box1 .btn a:hover {
+    color: rgb(37, 175, 255);
+}
+
+.box1 .btn:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.box1 p {
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.box1 h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box1 h4 {
+    margin-top: 10px;
+}
+
+#engineer {
+    color: rgb(0, 139, 219);
+}
+
+/* ____box 2____ */
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 1100px; */
+}
+
+.box2 img {
+    margin-right: 100px;
+    /* position: relative; */
+}
+
+#hi {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 139, 219);
+    margin-bottom: 10px;
+}
+
+#line {
+    background-color: rgb(0, 139, 219);
+    height: 3px;
+    width: 35px;
+    margin-left: 20px;
+}
+
+.box2 h2 {
+    padding-bottom: 40px;
+    color: rgb(59, 59, 59);
+}
+
+.box2 p {
+    color: rgb(66, 66, 66);
+    width: 700px;
+}
+
+.personal-details {
+    margin-top: 15px;
+}
+
+.personal-details p {
+    display: flex;
+    gap: 10px;
+    font-size: 16;
+    margin: 5px 0;
+}
+
+#my-cv {
+    margin-top: 10px;
+    background-color: rgb(37, 175, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 40px;
+    border-style: none;
+    transition: .5s;
+    color: white;
+}
+
+#my-cv a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+#my-cv:hover {
+    background-color: aliceblue;
+}
+
+#my-cv a:hover {
+    color: rgb(37, 175, 255);
+    text-decoration: none;
+}
+
+#hire-btn {
+    background-color: rgb(37, 175, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 40px;
+    border-style: none;
+    transition: .5s;
+    color: white;
+}
+
+#hire-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+#hire-btn:hover {
+    background-color: aliceblue;
+}
+
+#hire-btn a:hover {
+    color: rgb(37, 175, 255);
+    text-decoration: none;
+}
+
+.img-content {
+    position: relative;
+    max-width: 200px;
+    margin-right: 250px;
+}
+
+.img-content img {
+    box-shadow: 0 0 10px rgba(0, 204, 255, 0.486);
+}
+
+.icons {
+    position: absolute;
+    bottom: 220px;
+    left: 10%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    font-size: 20px;
+
+}
+
+.icons a {
+    color: rgb(37, 175, 255);
+    padding: 2px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+/* __box 3__ */
+
+.Qualification {
+    color: rgb(131, 131, 131);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.Qualification span{
+    color: rgb(0, 183, 255);
+    font-weight: 700;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+.qualification-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: auto;
+    color: black;
+}
+.qualification-box{
+    margin: 20px 80px;
+}
+.qualification-box h3{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.qualification-item{
+    background-color: rgb(238, 238, 238);
+    border-left: 4px solid rgb(0, 204, 255);
+    text-align: left;
+    padding: 30px 50px;
+    border-bottom: 1px solid rgb(0, 204, 255);
+}
